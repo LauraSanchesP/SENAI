@@ -197,3 +197,23 @@ h3 {
         height: 50px;
     }
 }
+/*Estilo CSS para mockup do site*/
+.mockup{
+    background: linear-gradient(0deg, rgba(255,115,0,1) 0%, rgba(0,0,0,1) 26%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content:space-between;
+}
+.celular2{
+    font-size: 24px;
+    font: bold;
+    color: aliceblue;
+    padding: 20px;
+    width: 35vw;
+}
+.image{
+    justify-content: center
+    height: 250px;
+    padding: 30px;
+} 
