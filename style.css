@@ -1,73 +1,89 @@
-        /* Estilos CSS para a página */
-* {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0
-}
-body {
+body{
+    color: aliceblue;
+    margin: 0;
+    background-color: black;
+    font-size: 24px;
     font-family: Arial, sans-serif;
 }
-.planos{
-    background-image: url("IMAGENS/PLANOS.CERT.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+a{
+    text-decoration: none;
 }
-        h1 {
-            text-align: center;
-            font-size: 80px;
-            color: #fff;
-            font:bold;
-        }
+.logo{
+    width: auto;
+    height: 150px;
+}
+.Senai{
+    width: max-content;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    padding: 2%;
+}
+.capa{
+    color: rgb(255, 255, 255);
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobreocurso{
+        text-align: end
+}        
+h1{
+            font-size: 100px;
+            text-align: end;
+            text-transform: uppercase;
+}
+.fotolaura{
+        width: 400px;
+}
+    .grupo-aluno{
+        display: flex;
+        justify-content: space-around;
+    }
+.portfolio{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.port-list{
+    flex: 1;
+    text-align: center;
+}
+.aluno{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.sobremim{
+    text-align: right;
+}
+.grupos-title{
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    
+}
+.Grupos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.logo-grupo{
+   height: 150px;
+   flex: 2;
+}
 
-        .planos-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 50px;
-        }
-
-        .plano {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-            width: 300px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-        }
-
-        .plano h2 {
-            color: #333;
-        }
-
-        .plano p {
-            color: #777;
-        }
-
-        .plano .preco {
-            font-size: 24px;
-            color: #F7B10C;
-            margin-top: 10px;
-        }
-
-        .plano .botao {
-            margin-top: 20px;
-        }
-
-        .plano .botao a {
-            display: block;
-            padding: 10px 20px;
-            background-color:rgb(247 177 12);
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .plano .botao a:hover {
-            background-color: rgb(247 177 12);
-        }
-        
+.logo-small{
+    height: auto;
+    width: 300px;
+}
+.grupos{
+    flex: 0 0 20%; 
+    margin: 30px;
+}
