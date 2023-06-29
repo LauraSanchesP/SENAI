@@ -1,0 +1,73 @@
+        /* Estilos CSS para a página */
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.planos{
+    background-image: url("IMAGENS/PLANOS.CERT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+        h1 {
+            text-align: center;
+            font-size: 80px;
+            color: #fff;
+            font:bold;
+        }
+
+        .planos-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .plano {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        .plano h2 {
+            color: #333;
+        }
+
+        .plano p {
+            color: #777;
+        }
+
+        .plano .preco {
+            font-size: 24px;
+            color: #F7B10C;
+            margin-top: 10px;
+        }
+
+        .plano .botao {
+            margin-top: 20px;
+        }
+
+        .plano .botao a {
+            display: block;
+            padding: 10px 20px;
+            background-color:rgb(247 177 12);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .plano .botao a:hover {
+            background-color: rgb(247 177 12);
+        }
+        
