@@ -2,7 +2,7 @@
 .capa{
     height: 95vh;
     background-color: #D9490B;
-    background-image: url(IMAGENS/Frame\ 1.png);
+    background-image: url(imagens/Frame\ 1.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -67,7 +67,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .planos{
-    background-image: url("IMAGENS/PLANOS.CERT.png");
+    background-image: url("imagens/PLANOS.CERT.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
