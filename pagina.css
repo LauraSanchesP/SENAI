@@ -1,0 +1,199 @@
+/*Estilo CSS para apresentação do site*/
+.capa{
+    height: 95vh;
+    background-color: #D9490B;
+    background-image: url(IMAGENS/Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.principal{
+        display: flex;
+}
+.cover{
+        height: 95vh;
+        margin: 0;
+}
+.logo{
+        height: 60px;
+        padding: 10px;
+}
+.textos{
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    width: 40vw;
+    font-family: 'Arial', sans-serif;
+}
+.textos h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.textos button{
+    width: 240px;
+    padding: 20px 0px;
+    color: #F06C00;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.textos button:active {
+    background-color: #F06C00; /* Altere para a cor desejada */
+    box-shadow: none; /* Remova a sombra ou ajuste conforme necessário */
+}
+.textos button:hover {
+    background-color: #000000; /* Altere para a cor desejada */
+    color: #F06C00;
+}
+body{
+    margin: 0%;
+}
+/*Estilo CSS para planos do site*/
+*{
+    /*padding:0;
+    margin:0;*/
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+h2{
+    margin: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.planos{
+    background-image: url("IMAGENS/PLANOS.CERT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2 {
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    font:bold;
+}
+.planos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.plano {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 450px;
+}
+.plano h3 {
+    color: #333;
+}
+.plano p {
+    color: #777;
+}
+.plano .preco {
+    font-size: 24px;
+    color: #F7B10C;
+    margin-top: 10px;
+}
+.plano .botao {
+    margin-top: 20px;
+}
+.plano .botao a {
+    display: block;
+    padding: 10px 20px;
+    background-color:rgb(247 177 12);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.plano .botao a:hover {
+    background-color: rgb(247 177 12);
+}
+/*Estilo CSS para beneficios do site*/
+body {
+    background-color:rgb(255, 69, 0);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+h2 {
+    font-size: 56px;
+    color:white;
+    margin-bottom: 32px;
+}
+.beneficio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    gap: 2rem;
+}
+.beneficio-item {
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.beneficio-item h3 {
+    color:black;
+}
+.beneficio-item p {
+    color:black;
+    font-size: 24px;               
+}
+.cta-button {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+}
+/*Estilo CSS para catalogo do site*/
+.catalogo {
+    background-color:orangered;
+    margin: 0%;
+    padding: 0%;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+    color: aliceblue;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+@media (max-width: 700px) {
+    h3{
+        color: brown;
+    }
+    image{
+        height: 50px;
+    }
+}
